@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeduzaProxy — Стабильный доступ и безопасность в сети</title>
+    
+    <style>
+        /* Стильный темный неоновый дизайн */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #07040d; 
+            color: #f8fafc; 
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 90vh;
+        }
+
+        .card {
+            background-color: #120b1e; 
+            padding: 30px;
+            border-radius: 24px; 
+            box-shadow: 0 15px 35px -5px rgba(236, 72, 153, 0.15); 
+            border: 1px solid #23153c; 
+            max-width: 400px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #d946ef, #ec4899); 
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-top: 0;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            color: #a78bfa; 
+            font-size: 15px;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+
+        .features-title {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #f472b6; 
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: none; 
+            padding-left: 0;
+            margin: 0 0 30px 0;
+        }
+
+        li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 14px;
+            font-size: 15px;
+            color: #e2e8f0;
+            line-height: 1.4;
+        }
+
+        /* Молнии перед списком преимуществ */
+        li::before {
+            content: "⚡"; 
+            position: absolute;
+            left: 0;
+            color: #d946ef; 
+            font-weight: bold;
+        }
+
+        .btn {
+            display: block; 
+            text-align: center; 
+            text-decoration: none; 
+            background: linear-gradient(135deg, #d946ef, #ec4899); 
+            color: #ffffff; 
+            padding: 16px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 14px;
+            box-shadow: 0 4px 20px rgba(217, 70, 239, 0.4);
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-sizing: border-box;
+        }
+
+        .btn:active {
+            transform: scale(0.97); 
+            box-shadow: 0 2px 5px rgba(217, 70, 239, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <header>
+            <h1>MeduzaProxy</h1>
+            <p>Надежное решение для безопасной работы и комфортного интернета без ограничений скорости и лимитов трафика.</p>
+        </header>
+
+        <main>
+            <div class="features-title">Что вы получаете:</div>
+            <ul>
+                <li><strong>Доступ к рабочим сервисам:</strong> Стабильная работа Notion, Canva, ChatGPT и других нужных платформ.</li>
+                <li><strong>Безопасность данных:</strong> Надежная защита паролей и банковских карт при работе через публичный Wi-Fi.</li>
+                <li><strong>Высокая скорость:</strong> Комфортный просмотр видео в высоком качестве (YouTube, онлайн-кинотеатры) без зависаний.</li>
+                <li><strong>Конфиденциальность:</strong> Мы не ведем логи вашей активности — ваша история в сети принадлежит только вам.</li>
+                <li><strong>Простая настройка:</strong> Подключение за 2 минуты на смартфоне, планшете или компьютере по готовой инструкции.</li>
+            </ul>
+
+            <!-- Ссылка на твой Телеграм -->
+            <a href="https://t.me/percovna" class="btn" target="_blank">Подключить доступ</a>
+        </main>
+    </div>
+
+</body>
+</html>
